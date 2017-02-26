@@ -1,0 +1,6 @@
+cmunrm - Computer Modern Unicode Roman
+cmunrb - Computer Modern Unicode Roman bold
+
+urls for each
+-- http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunrm.otf
+-- http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunrb.otf
