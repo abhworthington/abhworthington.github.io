@@ -4,7 +4,9 @@ body {
 }
 nav ul, footer ul {
     font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    src:
+        local('CMU Serif Extra'),
+        url('/fonts/cmunrb.otf');
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,18 +25,24 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    src: 
+        local('CMU Serif'),
+        url('/fonts/cmunrm.otf');
 }
 
 h2 {
     font-size: 1.5em;
     font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    src: 
+        local('CMU Serif'),
+        url('/fonts/cmunrm.otf');
 }
 
 p {
     font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    src: 
+        local('CMU Serif'),
+        url('/fonts/cmunrm.otf');
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -47,7 +55,9 @@ footer {
 ul.posts { 
     margin: 20px auto 40px;
     font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    src: 
+        local('CMU Serif'),
+        url('/fonts/cmunrm.otf');
     font-size: 1.4em;
 }
 
