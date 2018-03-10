@@ -1,5 +1,5 @@
 User-agent: Googlebot
-Disallow:
+Disallow: /papers.html
 
 User-agent: Adsbot-Google
 Disallow: /
