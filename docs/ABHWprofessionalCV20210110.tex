@@ -1,0 +1,222 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,unicode]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{ebgaramond}
+%\usepackage{hyperref}
+%\hypersetup{colorlinks,
+%			urlcolor=color2}
+
+
+% personal data
+\name{Alton B.H.}{Worthington}
+%\title{Lecturer in Public Policy\linebreak Gerald R. Ford School of Public Policy, University of Michigan}                               % optional, remove / comment the line if not wanted
+\address{PO Box 7965}{Ann Arbor MI 48107-7965}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(772)~332~1319}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+1~(734)~926~9427}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{alton.b.h.worthington@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{abhworthington.com}
+\social[github]{abhworthington}                % optional, remove / comment the line if not wanted
+\extrainfo{Version: \today}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+                            % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+\cvitem{Professional Experience}{\emph{Project management, teaching, methodological consulting (internal and client-facing), document and workflow management, statistical programming, general project problem-solving, basic computer programming}}
+\cvitem{Research Expertise}{\emph{International and comparative political economy, trade economics, quantitative research methods (design and implementation), game theory, research design}}
+
+\section{Education}
+\cventry{2019}{Political Science}{University of Michigan}{Ann Arbor}{\textit{PhD}}{With focus on International Relations, Comparative Politics, Research Methods and Formal Models, and Economics}  % arguments 3 to 6 can be left empty
+\cventry{2007}{Economics and Political Science}{Rutgers, The State University of New Jersey}{New Brunswick, NJ}{\textit{BA}}{Graduated with Honors}
+
+\section{Doctoral thesis}
+\cvitem{title}{\emph{MNCs, NTBs, and New Protectionism: Industrial Protection Coalitions in an Era of Global Capital}}
+\cvitem{supervisors}{William R. Clark (TAMU), Andrew M. Kerner (UM), Iain G. Osgood (UM)}
+\cvitem{description}{The dissertation explains the conditional rise of non-tariff protections as tariffs declined in postwar global economy.The core claim is that global capital flows created political incentives which changed the politics of protectionism in many countries. I advance a new typology of ``market access barriers'', an improvement over the existing tariff/NTM framing which clarifies, both empirically and theoretically, the effect of trade-distorting policies. From this, I develop a model of industrial coalitional politics in support of or opposition to different policy options. I present empirical support for hypothesized divergence across industries and countries in the nature of protection using a new dataset developed from the UNCTAD TRAINS database and other sources.}
+
+\section{Experience}
+\subsection{Teaching/Research}
+\cventry{2018-2011}{Lecturer in Public Policy}{Gerald R. Ford School of Public Policy, University of Michigan}{Ann Arbor, MI}{}{Instructor of record for undergraduate- and graduate-level courses in statistical software use, data management, data science, and visualization. Advisor/mentor/consultant for graduate students and fellow faculty on social science computing and general data analysis%
+\begin{itemize}%
+	\item Excel for Public Policy
+		\begin{itemize}
+			\item 2018-present - Prepared and delivered a course on data management and analysis using Microsoft Excel. Provided one-on-one and classroom-wide instruction in fundamentals of Excel data storage, use, and best practices for statistical analysis in Excel. Topics included data import and cleaning, summary analysis (including Pivot Tables and Analysis Add-in tools), methods of regression analysis, and use of Solver/Goal Seek methods for optimization and projections.
+		\end{itemize}
+	\item Stata for Public Policy
+		\begin{itemize}
+			\item 2018-present - Prepared and delivered a course on data management and analysis using Stata. Provided one-on-one and classroom-wide instruction in fundamentals of Stata programming, data import and management, creation of summary statistical analyses, data transformation and summarization, and regression analysis (including bivariate/categorical outcomes, panel and mixed models).
+		\end{itemize}
+	\item R for Public Policy
+		\begin{itemize}
+			\item 2018-present - Prepared and delivered a course on data management and analysis using the R statistics language and the RStudio IDE. Provided one-on-one and classroom-wide instruction in fundamentals of the R language and programming, methods of data import and management, summary statistical analysis, basic statistical testing, and regression analysis (including bivariate/categorical outcomes, panel and mixed models).
+		\end{itemize}
+	\item Data Visualization
+		\begin{itemize}
+			\item 2018-present - Prepared and delivered a course on principles and practice of static data visualization for exploratory analysis and explanatory purposes in print and web media. Provided one-on-one and classroom-wide instruction in Excel, Stata, and R, including packages and features in each software relevant to data management and production of visualizations.
+		\end{itemize}
+	\item Open Consulting for Ford School Community
+		\begin{itemize}
+			\item 2018-present - Offered 6+ hours weekly drop-in consulting/project troubleshooting service for students and faculty at the Ford School. Provided technical assistance, general guidance on research design and methods, and direction to additional resources to improve learning and research quality.
+		\end{itemize}
+\end{itemize}}
+\cventry{2009-2017}{Graduate Student Instructor}{University of Michigan}{Ann Arbor, MI}{}{Instructor for undergraduate- and graduate-level classes in Political Science and International Studies%
+\begin{itemize}%
+	\item Introduction to International Relations
+		\begin{itemize}
+			\item 2009-2013 - Served as assistant instructor, responsible for grading, ensuring student engagement w/material in international security, international political economy, and international organizations, and Administrative Assistant for other student instructors and professor
+			\item 2016 - Instructor of record, responsible for all aspects of instruction, including lecturing, assessment design, and ensuring student understanding of core concepts and data in international security, political economy, and organizations
+		\end{itemize}
+	\item Introduction to International Studies
+		\begin{itemize}
+			\item 2015 - Instructor of record, responsible for all aspects of instruction in course on international security, international politics and economics, the global environment, and comparative cultures
+		\end{itemize}
+	\item Mathematics for Social Scientists and Introduction to Formal Theory
+		\begin{itemize}
+			\item 2011-2013 - Assistant instructor for graduate course in mathematics (Scalar and Matrix Algebra, Differential and Integral Calculus, Probability Theory, Set Theory) and game theory/formal modeling (social choice theory and non-cooperative game theory), responsible for grading, periodic assessments, one-on-one and group tutoring
+		\end{itemize}
+	\item Intermediate Statistical Methods for Political Scientists
+		\begin{itemize}
+			\item 2014 - Assistant instructor for graduate course in multivariate statistics and causal inference, taught programming in R alongside fundamentals of (\& applied) statistical methods for social scientists, responsible for grading, periodic assessments, one-on-one and group tutoring
+		\end{itemize}
+\end{itemize}}
+\cventry{2009-2018}{Research Assistant}{Various Faculty, University of Michigan}{Ann Arbor, MI}{}{Provided general research assistance and specific quantitative analysis/game theory support for research projects, including
+\begin{itemize}
+	\item ``Behavioral Genetics and Foreign Policy Cues'', with Allan C. Stam
+	\begin{itemize}
+		\item Behavioral genetics/structural equation modeling of public opinion survey data from twin study, R/OpenMx programming, writing, research
+	\end{itemize}
+	\item ``Combat Environment and Long-term Costs of War'', with Allan C. Stam
+	\begin{itemize}
+		\item Behavioral genetics/structural equation modeling of panel data of health outcomes from historical twin study of Vietnam-era Veterans, R/OpenMx programming, writing, research, management of protected/sensitive data
+	\end{itemize}
+	\item ``Pension Underfunding Among the States'', with Robert Mickey
+	\begin{itemize}
+		\item Developed database of public pension fund liabilities from existing incomplete panel data, basic research, econometric analysis, archival research (nationwide) and aggregation of archival sources into quantitative database for future analysis using various software, including R
+	\end{itemize}
+	\item ``Distributive Politics under Authoritarian Conditions: Does Goods Delivery Generate Positive Evaluations of Government Performance?'', with Anne Pitcher
+	\begin{itemize}
+		\item Performed statistical analysis and prepared presentation/visualization (in Stata) of results of public opinion survey related to public goods provision in Angola, survey validity testing, prepared several supplemental reports on short notice in response to stakeholder requests to PI
+	\end{itemize}
+	\item ``A Theory of Creole Genesis'', with Jinho Baik, Marlyse Baptista, and Ken Kollman
+	\begin{itemize}
+		\item Modified and debugged agent-based model (simulation) of language evolution written in C++, responsible for running simulation iterations with code written in Python, and organizing, summarizing, and presenting simulation output in R. Wrote model and results manuscript sections for mathematics/linguistics/political science/complex systems audiences
+	\end{itemize}
+	\item ``Regional Parties and Decentralization'', with Ken Kollman
+	\begin{itemize}
+		\item Designed and estimated multivariate dynamic models on panel data of elections and institutions across the world, data visualization - including GIS mapping, statistical model adaptation, data management in R and Stata
+	\end{itemize}
+	\item ``Turn Up Turnout/Big Ten Voter Challenge'', with Edie Goldenberg
+	\begin{itemize}
+		\item Managed grant-funded student voting outreach efforts on University of Michigan campus. Responsible for administrative and creative tasks related to holding voter outreach events, promoting engagement from University departments and organizations, and data collection, management, and analysis for benchmarking.
+	\end{itemize}
+\end{itemize}}
+\subsection{Professional}
+\cventry{2014-2015}{Independent Consultant}{Claes Fornell International Group}{Ann Arbor, MI}{}{Served as special consultant/advisor to Director of Customer Analytics at CFI Group.
+\begin{itemize}
+	\item General consulting for transition from proprietary statistical software to R (and related applications) statistical language
+	\item Provided client-specific analysis, building on existing analysis framework and introducing new methods
+	\item Developed interactive data visualization and analysis tools in Shiny
+	\item Provided analysis and tools for better use of existing data to generate new insights for clients
+\end{itemize}}
+\cventry{Nov. 2014}{Visiting Scholar}{Ural Federal University}{Ekaterinburg, Sverdlovsk Oblast, Russia}{}{Consulted in design of a program in ``Social and Behavioral Research'' in Department of Public Administration and Entrepreneurship
+\begin{itemize}
+	\item Developed course (and proposed course program) in US-style social science research methods w/focus on hypothesis testing, positivist methods, and research design
+	\item Collaborated with local faculty and staff to meet Russian Federal educational requirements in course design and documentation
+	\item Gave impromptu lectures on methods of positivist research design and implementation to groups of Masters-level students and UrFU faculty
+	\item Collected and disseminated training resources (articles, texts, technical resources) for use by local faculty in course program
+	\item Presented course proposal to faculty body and department administration for approval
+	\item Worked remotely w/ faculty during final preparation of course (Dec 2014-May 2015)
+\end{itemize}}
+\subsection{Other/Unpaid}
+\cventry{2012-2014}{Maintenance Director}{Sandhill Soaring Club}{Gregory, MI}{}{Served as volunteer maintenance manager for fleet of airplanes and gliders for soaring co-op/educational club, responsible for FAA-related documentation and bookkeeping, coordinated outside contractors and club members for maintenance efforts, managed budgeting/scheduling of fleet upkeep}
+\cventry{2006-2008}{Team/Project Manager/Advisor}{Rutgers Formula Racing}{New Brunswick, NJ}{}{Various management/supervisory responsibilities related to design, construction, and tuning of a Formula SAE race car. Manager/supervisor of related student organization, responsible for managing fund-raising, stakeholder outreach, documentation, logistics, and University interface with respect to organization.}
+
+\section{Grant-funded Research Projects}
+\cventry{2012}{Rackham Spring-Summer Research Grant}{"The Political Sources of Global Income Inequality"}{w/William R. Clark}{}{This project explained the divergence in economic growth and incomes in the ``global North'' and ``global South'' as the consequence of specific barriers to economic openness beginning in the 19th century. The effect of the interaction of political institutions (democratization) and factor abundance (labor vs capital abundance) was tested using a new dataset on institutions, factor abundance, tariff and capital controls, and economic flows developed from a variety of historical sources and integrating other existing datasets.}
+\cventry{2010}{Roy Pierce Scholars Fund Award}{"Calling the Shot: The Political Economy of Inflation Targeting"}{w/Andrew M. Kerner}{}{This project developed a theory of the conditional effectiveness of inflation targeting policies in moderating inflation and tested it using a new database of inflation targeting policies and other monetary institutions in economies within and beyond the OECD.}
+\cventry{2009}{Bobbe Jon Bridge Research Award}{"Say Anything: Central Bank Independence, Coordinated Wage Bargaining, and Monetary Policy Transparency in Developed Economies"}{w/Robert J. Franzese}{}{This project expanded on Franzese's previous work on Central Bank Independence, Coordinated Wage Bargaining, and inflation to introduce the effect of central bank transparency on moderating inflation above and beyond central bank independence.}
+
+\section{Computing skills}
+\cvitem{Statistical Software}{R (proficient, including visualization and interaction), Stata (proficient, including visualizaton), Python (basic)}
+\cvitem{Document Creation}{\LaTeX (proficient, including Beamer), Office/Open-source Office Alternatives}
+\cvitem{Collaboration}{Git/Github, Dropbox/Box, Google}
+\cvitem{Programming}{C++ (basic), HTML (basic), Python (basic), Javascript (basic)}
+
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Professional/Research}{
+  		\begin{itemize}
+  			\item Kenneth W. Kollman - Director, UM Center for Political Studies\\ \href{mailto:kkollman@umich.edu}{\color{color1} kkollman@umich.edu} 
+  			\item Robert Mickey - Professor, UM Dept. of Political Science\\ \href{mailto:rmickey@umich.edu}{\color{color1} rmickey@umich.edu}
+  		\end{itemize}
+  		}
+  \cvcolumn{Personal/Collaborators}{
+  		\begin{itemize}
+  			\item Shaun C. McGirr - Head of Data Science and Business Intelligence - Cox Automotive UK\\ \href{mailto:shaunmcgirr@gmail.com}{\color{color1} shaunmcgirr@gmail.com}
+  			\item Alexander Von Hagen-Jamar - Research Analyst - Harvard Opinion Research Program\\ \href{mailto:avonhagen-jamar@globalstrategygroup.com}{\color{color1} avonhagen-jamar@globalstrategygroup.com}
+  			\item Dustin Gamza - Foreign Affairs Officer - United States Department of State\\ \href{mailto:GamzaD@state.gov}{\color{color1} GamzaD@state.gov}
+  		\end{itemize}
+  		}
+  \cvcolumn{Other References}{Academic and additional references, as well as phone numbers for references here, available upon request.}
+\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
