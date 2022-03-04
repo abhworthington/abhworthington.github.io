@@ -1,9 +1,7 @@
-cmunrm - Computer Modern Unicode Roman
-cmunrb - Computer Modern Unicode Roman bold nonextended
-cmunbx - Computer Modern Unicode Roman bold
+Font Names
+RedHatText-Regular - base Red Hat Text fontface
+RedHatText-Bold - bold Red Hat Text fontface
 
 
 urls for each
--- http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunrm.otf
--- http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunrb.otf
--- http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbx.otf
+-- https://fonts.google.com/specimen/Red+Hat+Text
