@@ -1,15 +1,15 @@
 @font-face{
-    font-family:"Computer Modern Bold";
+    font-family:"Red Hat Text Bold";
     src:
         local('☺'),
-        url('/fonts/cmunbx.otf') format('opentype');
+        url('/fonts/RedHatText-Bold.ttf') format('truetype');
 }
 
 @font-face{
-    font-family:"Computer Modern";
+    font-family:"Red Hat Text Regular";
     src:
         local('☺'),
-        url('/fonts/cmunrm.otf') format('opentype');
+        url('/fonts/RedHatText-Regular.ttf') format('truetype');
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: "Computer Modern Bold";
+    font-family: "Red Hat Text Bold";
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -35,21 +35,21 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: "Computer Modern";
+    font-family: "Red Hat Text Regular";
 }
 
 h2 {
     font-size: 1.5em;
-    font-family: "Computer Modern";
+    font-family: "Red Hat Text Regular";
 }
 
 h3 {
     font-size: 1em;
-    font-family: "Computer Modern";
+    font-family: "Red Hat Text Regular";
 }
 
 p {
-    font-family: "Computer Modern";
+    font-family: "Red Hat Text Regular";
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
@@ -61,7 +61,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px;
-    font-family: "Computer Modern";
+    font-family: "Red Hat Text Regular";
     font-size: 1.4em;
 }
 
@@ -75,5 +75,5 @@ img {
 }
 
 select {
-    font-family: "Computer Modern";
+    font-family: "Red Hat Text Regular";
 }
